@@ -2,8 +2,8 @@
   Write your explanation here as a comment.
   For example, you might say...
     -This function has [insert time complexity], because [some line of code] means [something describing the nature of the implementation]
-    Problem 1:this function [Bigo(n^2)]because [Math.pow(i, hash)] means [we have eterate by for loop for each item and change the output by math pow for each item]
-    problem2:this function [Bigo(n)]because [we have recursion  and output has changed by recurion ]
+    
+   
     problem3:this function[Bigo(1)]because[the out just true or false we didn't change anything in output]
 */
 
@@ -11,7 +11,7 @@
 // Problem 1: Retrieval of a value from a hash table using the following function with regard to the size of the hash table. knowing that the key never get very large
 
 /*
- Complexity:
+ Complexity:Problem 1:this function [o(1)]because [key.length] means [it iterate in not large items]
  */
 
 var retrieve = function(key) {
@@ -26,7 +26,7 @@ var retrieve = function(key) {
 // Problem 2: sortedArrayContainsItem with regard to the length of the passed-in array
 
 /*
- Complexity:
+ Complexity:Problem 2:this function [o(log(n))]because [(array.length / 2)] means [it iterate in half item not all the array and ignore the  other element]
  */
 
 
@@ -40,7 +40,7 @@ var sortedArrayContainsItem = function(array, item) {
 };
 
 
-// Problem 3: hasDuplicates with regard to the length of the passed in array
+// Problem 3:this function [o(b^2)]because [for (var i = 0; i < array.length; i++),indexOf(item) ] means [it means we have nested loop for and indexOf]
 
 /*
  Complexity:
